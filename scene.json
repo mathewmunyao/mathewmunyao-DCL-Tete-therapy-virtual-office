@@ -1,0 +1,34 @@
+{
+  "display": {
+    "title": "Tete Therapy Virtual Office",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "VirtualisReal",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "-114,-45"
+    ],
+    "base": "-114,-45"
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "1f27bd7f-d89d-4d79-b999-585f5f48cbd4",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 1,
+      "cols": 1
+    }
+  }
+}
