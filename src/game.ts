@@ -14,7 +14,7 @@ const _scene = new Entity('_scene')
 engine.addEntity(_scene)
 const transform = new Transform({
   position: new Vector3(16, 0, 0),
-  rotation: Quaternion.Euler(0, -90, 0),
+  rotation: Quaternion.Euler(0, 270, 0),
   scale: new Vector3(1, 1, 1)
 })
 _scene.addComponentOrReplace(transform)
@@ -680,7 +680,7 @@ const transform59 = new Transform({
 })
 wallPlainNavy12.addComponentOrReplace(transform59)
 
-// Create new Entity for this image - Tete-therepy-02
+// Create new Entity for this image - Tete-therepy-pic-02
 
 const imageFromURL = new Entity()
 engine.addEntity(imageFromURL)
@@ -695,12 +695,12 @@ imageFromURL.addComponentOrReplace(transform60)
 
 imageFromURL.addComponentOrReplace(
   new OnPointerDown(() => {
-    openExternalURL("https://www.linkedin.com/in/joey-ackerman-lcsw-r-1873ab43/")
+    openExternalURL("https://www.tetetherapy.com/")
   })
 )
 //Create texture i.e the image
 
-const imageFromURLlinkT = new Texture("https://gateway.pinata.cloud/ipfs/QmUMcjN3r6ovr5mVQhSbAKUjwrBoEkeat7ojRzEZfTmtKL")
+const imageFromURLlinkT = new Texture("https://gateway.pinata.cloud/ipfs/Qmddvm8Af6z9KoXi18p8wUzwc3BQm4rBR97it2Scv9WvB4")
 
 //Create a material
 const imageFromURLlinkM = new Material()
@@ -1246,7 +1246,7 @@ imageFromURL3.addComponentOrReplace(transform101)
 
 imageFromURL3.addComponentOrReplace(
   new OnPointerDown(() => {
-    openExternalURL("https://www.tetetherapy.com//")
+    openExternalURL("https://www.tetetherapy.com/")
   })
 )
 //Create texture i.e the image
@@ -1270,8 +1270,7 @@ const transform102 = new Transform({
 })
 nftPictureFrame3.addComponentOrReplace(transform102)
 
-// Create new Entity for this image - Tete-therepy-poster-02
-
+// Create new Entity for this image - Tete-therepy-Image1
 const imageFromURL2 = new Entity()
 engine.addEntity(imageFromURL2)
 imageFromURL2.setParent(_scene)
@@ -1285,7 +1284,7 @@ imageFromURL2.addComponentOrReplace(transform103)
 
 imageFromURL2.addComponentOrReplace(
   new OnPointerDown(() => {
-    openExternalURL("https://www.tetetherapy.com/about")
+    openExternalURL("https://www.linkedin.com/in/joey-ackerman-lcsw-r-1873ab43/")
   })
 )
 //Create texture i.e the image
